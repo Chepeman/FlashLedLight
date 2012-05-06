@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40D0C6F515572F860039A0F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D0C6F415572F860039A0F1 /* UIKit.framework */; };
+		40D0C6F715572F860039A0F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D0C6F615572F860039A0F1 /* Foundation.framework */; };
+		40D0C6F915572F860039A0F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D0C6F815572F860039A0F1 /* CoreGraphics.framework */; };
+		40D0C6FF15572F860039A0F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40D0C6FD15572F860039A0F1 /* InfoPlist.strings */; };
+		40D0C70115572F860039A0F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D0C70015572F860039A0F1 /* main.m */; };
+		40D0C70515572F860039A0F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D0C70415572F860039A0F1 /* AppDelegate.m */; };
+		40D0C70815572F860039A0F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D0C70715572F860039A0F1 /* ViewController.m */; };
+		40D0C70B15572F860039A0F1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40D0C70915572F860039A0F1 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40D0C6F015572F860039A0F1 /* FlashLedLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashLedLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D0C6F415572F860039A0F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		40D0C6F615572F860039A0F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40D0C6F815572F860039A0F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		40D0C6FC15572F860039A0F1 /* FlashLedLight-Info.plist */ = {isa = PBXFileReference; path = "FlashLedLight-Info.plist"; sourceTree = "<group>"; };
+		40D0C6FE15572F860039A0F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40D0C70015572F860039A0F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40D0C70215572F860039A0F1 /* FlashLedLight-Prefix.pch */ = {isa = PBXFileReference; path = "FlashLedLight-Prefix.pch"; sourceTree = "<group>"; };
+		40D0C70315572F860039A0F1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		40D0C70415572F860039A0F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40D0C70615572F860039A0F1 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		40D0C70715572F860039A0F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40D0C70A15572F860039A0F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40D0C6ED15572F860039A0F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D0C6F515572F860039A0F1 /* UIKit.framework in Frameworks */,
+				40D0C6F715572F860039A0F1 /* Foundation.framework in Frameworks */,
+				40D0C6F915572F860039A0F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40D0C6E515572F860039A0F1 = {
+			isa = PBXGroup;
+			children = (
+				40D0C6FA15572F860039A0F1 /* FlashLedLight */,
+				40D0C6F315572F860039A0F1 /* Frameworks */,
+				40D0C6F115572F860039A0F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40D0C6F115572F860039A0F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40D0C6F015572F860039A0F1 /* FlashLedLight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40D0C6F315572F860039A0F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40D0C6F415572F860039A0F1 /* UIKit.framework */,
+				40D0C6F615572F860039A0F1 /* Foundation.framework */,
+				40D0C6F815572F860039A0F1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40D0C6FA15572F860039A0F1 /* FlashLedLight */ = {
+			isa = PBXGroup;
+			children = (
+				40D0C70315572F860039A0F1 /* AppDelegate.h */,
+				40D0C70415572F860039A0F1 /* AppDelegate.m */,
+				40D0C70615572F860039A0F1 /* ViewController.h */,
+				40D0C70715572F860039A0F1 /* ViewController.m */,
+				40D0C70915572F860039A0F1 /* ViewController.xib */,
+				40D0C6FB15572F860039A0F1 /* Supporting Files */,
+			);
+			path = FlashLedLight;
+			sourceTree = "<group>";
+		};
+		40D0C6FB15572F860039A0F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40D0C6FC15572F860039A0F1 /* FlashLedLight-Info.plist */,
+				40D0C6FD15572F860039A0F1 /* InfoPlist.strings */,
+				40D0C70015572F860039A0F1 /* main.m */,
+				40D0C70215572F860039A0F1 /* FlashLedLight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40D0C6EF15572F860039A0F1 /* FlashLedLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D0C70E15572F860039A0F1 /* Build configuration list for PBXNativeTarget "FlashLedLight" */;
+			buildPhases = (
+				40D0C6EC15572F860039A0F1 /* Sources */,
+				40D0C6ED15572F860039A0F1 /* Frameworks */,
+				40D0C6EE15572F860039A0F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashLedLight;
+			productName = FlashLedLight;
+			productReference = 40D0C6F015572F860039A0F1 /* FlashLedLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40D0C6E715572F860039A0F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Universidad de Guanajuato";
+			};
+			buildConfigurationList = 40D0C6EA15572F860039A0F1 /* Build configuration list for PBXProject "FlashLedLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 40D0C6E515572F860039A0F1;
+			productRefGroup = 40D0C6F115572F860039A0F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40D0C6EF15572F860039A0F1 /* FlashLedLight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40D0C6EE15572F860039A0F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D0C6FF15572F860039A0F1 /* InfoPlist.strings in Resources */,
+				40D0C70B15572F860039A0F1 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40D0C6EC15572F860039A0F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D0C70115572F860039A0F1 /* main.m in Sources */,
+				40D0C70515572F860039A0F1 /* AppDelegate.m in Sources */,
+				40D0C70815572F860039A0F1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40D0C6FD15572F860039A0F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40D0C6FE15572F860039A0F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40D0C70915572F860039A0F1 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40D0C70A15572F860039A0F1 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40D0C70C15572F860039A0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40D0C70D15572F860039A0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40D0C70F15572F860039A0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashLedLight/FlashLedLight-Prefix.pch";
+				INFOPLIST_FILE = "FlashLedLight/FlashLedLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		40D0C71015572F860039A0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashLedLight/FlashLedLight-Prefix.pch";
+				INFOPLIST_FILE = "FlashLedLight/FlashLedLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40D0C6EA15572F860039A0F1 /* Build configuration list for PBXProject "FlashLedLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D0C70C15572F860039A0F1 /* Debug */,
+				40D0C70D15572F860039A0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D0C70E15572F860039A0F1 /* Build configuration list for PBXNativeTarget "FlashLedLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D0C70F15572F860039A0F1 /* Debug */,
+				40D0C71015572F860039A0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40D0C6E715572F860039A0F1 /* Project object */;
+}
